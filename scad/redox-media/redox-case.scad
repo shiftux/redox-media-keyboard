@@ -232,7 +232,7 @@ module rev0b_top_media(raised = true) {
         }
         volume_knob_hole(vol_knob_x,vol_knob_y,top_case_raised_height);
         media_button_hole(media_button_1_x,media_button_1_y,top_case_raised_height);
-        // media_button_hole(media_button_2_x,media_button_2_y,top_case_raised_height);
+        media_button_hole(media_button_2_x,media_button_2_y,top_case_raised_height);
     }
 }
 
@@ -244,10 +244,10 @@ usb_holder_x = 30;
 usb_holder_y = 23;
 usb_holder_z = wall_thickness+2.201;
 module rev0b_bottom_media() {
-    usb_holder_sides(usb_holder_x,usb_holder_y,usb_holder_z);
+    // usb_holder_sides(usb_holder_x,usb_holder_y,usb_holder_z);
     difference() {
         bottom_case(rev0b_screw_holes, rev0b_tent_positions) rev0b_outer_profile();
-        usb_holder_hole(usb_holder_x,usb_holder_y,usb_holder_z);
+        // usb_holder_hole(usb_holder_x,usb_holder_y,usb_holder_z);
         trs_jack(trs_x,trs_y,trs_z,trs_theta_z);
         //%trs_jack(trs_x,trs_y,trs_z,trs_theta_z);
         translate([0, 0, wall_thickness + 0.01]) {
@@ -269,7 +269,7 @@ module rev0b_bottom_media() {
     }
 }
 
-part = "top-media";
+part = "bottom-media";
 explode = 0;
 if (part == "outer") {
     //BezierVisualize(bzVec);
@@ -283,10 +283,12 @@ if (part == "outer") {
     #key_holes(left_keys);
 
 } else if (part == "top-media") {
-        rev0b_top_media(true);
+    rev0b_top_media(true);
+    // mirror([1,0,0]) rev0b_top_media(true);
 
 } else if (part == "bottom-media") {
-    rev0b_bottom_media();
+    // rev0b_bottom_media();
+     mirror([1,0,0]) rev0b_bottom_media();
 
 } else if (part == "assembly") {
     %translate([0, 0, plate_thickness + 30 * explode]) key_holes(left_keys, "keycap");
