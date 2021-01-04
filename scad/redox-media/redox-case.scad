@@ -159,7 +159,7 @@ module media_button_hole(x,y,z) {
     }
 }
 
-// volume knob / scroll wheel
+// volume knob and scroll wheel
 // ideal with https://www.velleman.eu/products/view/?id=439226
 vol_top_diameter = 29;
 vol_top_height = 17;
