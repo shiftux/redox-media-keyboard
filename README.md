@@ -10,7 +10,7 @@ I've written a detailed article and created a video explaining the pros and cons
 ## Wiring diagram
 Keyboards are typically wired in a matrix, where every switch is connected to 1 row and 1 column. If the microcontroller detects a connection between a row and a column, it identifies which key is pressed. The ---------------VIDEO--------------- explains the wiring in more detail with useful hints of how to prepare the wires.
 
-<img title="The Redox Media Keyboard" alt="The Redox Media Keyboard" src="./images/redox_media_wiring_detail.pdf">
+<img title="The Redox Media Keyboard" alt="The Redox Media Keyboard" src="./images/redox_media_wiring_detail.png">
 <img title="The Redox Media Keyboard" alt="The Redox Media Keyboard" src="./images/pro_micro_connections.jpg">
 
 The wiring diagrams from the Redox community can be found [here](https://hackaday.io/project/160610/logs?sort=oldest)
