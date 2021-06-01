@@ -15,8 +15,12 @@ Keyboards are typically wired in a matrix, where every switch is connected to 1 
 
 The wiring diagrams from the Redox community can be found [here](https://hackaday.io/project/160610/logs?sort=oldest)
 
+For easier wiring I recommend first soldering the diodes and then preparing partially de-insulated cables, details can be learned in the ---------------VIDEO---------------  or in [this guide](https://geekhack.org/index.php?topic=87689.0).
+
 ## Programming
-The keyboard software is based on the QMK framework, as is the original Redox. I've submitted a PR to QMK adding a media layout and corresponding key map. Also instructions to apply and flash the firmware are layed out there, refer to the [Redox Media section in the QMK repo](https://github.com/qmk/qmk_firmware/tree/master/keyboards/redox/) --------------- update link ------------------
+The keyboard software is based on the QMK framework, as is the original Redox. I've submitted a PR to QMK adding a media layout and corresponding key map. Also instructions to apply and flash the firmware are layed out there, refer to the [Redox Media section in the QMK repo](https://github.com/qmk/qmk_firmware/tree/master/keyboards/redox/) ---------------- update link ------------------
+
+While generating a new layout I highly recommend using the amazing [QMK key tester](https://config.qmk.fm/#/test).
 
 
 ## Bill of material
@@ -33,6 +37,8 @@ The keyboard software is based on the QMK framework, as is the original Redox. I
 - volume knob
 - 5mm threaded rod with nuts
 - hook up wire (ideally multiple colors)
+- key caps. You can use any old MX type key caps from an old keyboard or order a set of custom ones. I got mine from [here](https://www.maxkeyboard.com/iso-layout-custom-color-cherry-mx-keycap-set-top-print-blank.html), another alternative would be [this](https://candykeys.com/).
 
+Note: I created the bottom part of the keyboard so that it has a custom micro-USB slot which perfectly fits the shape cable holding it in place and exposing one end as port socket for the computer-to-keyboard USB cable, that's where the [shape cable](https://www.fust.ch/de/p/pc-tablet-handy/pc-komponenten/kabel-adapter/delock/usb-otg-kabel-microb-shapecable-0-15-m-8289927.html) comes in.
 ## CAD files
 The original Redox CAD files (SCAD) are open source and available [here](https://github.com/Lenbok/scad-keyboard-cases). I've modified those adding some extra space at the top to accommodate the media buttons and two knobs as well as a mechanical housing for a micro-USB shape cable as the pro micro has a somewhat fragile micro-USB port.
