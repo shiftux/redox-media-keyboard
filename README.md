@@ -5,17 +5,17 @@ I've made a custom adaptation of the [Redox](https://hackaday.io/project/160610-
 <img title="The Redox Media Keyboard" alt="The Redox Media Keyboard" src="./images/the_keyboard.jpg">
 
 ## Detailed report and video
-I've written a detailed article and created a video explaining the pros and cons of such a keyboard as well as a build and programming guide.
+I've written a [detailed article](https://shiftux.org/making_projects/keyboard.html) and created a [video](---------------VIDEO---------------) video explaining the pros and cons of such a keyboard as well as a build and programming guide.
 
 ## Wiring diagram
-Keyboards are typically wired in a matrix, where every switch is connected to 1 row and 1 column. If the microcontroller detects a connection between a row and a column, it identifies which key is pressed. The ---------------VIDEO--------------- explains the wiring in more detail with useful hints of how to prepare the wires.
+Keyboards are typically wired in a matrix, where every switch is connected to 1 row and 1 column. If the microcontroller detects a connection between a row and a column, it identifies which key is pressed. The [video](---------------VIDEO---------------) explains the wiring in more detail with useful hints of how to prepare the wires.
 
 <img title="The Redox Media Keyboard" alt="The Redox Media Keyboard" src="./images/redox_media_wiring_detail.png">
 <img title="The Redox Media Keyboard" alt="The Redox Media Keyboard" src="./images/pro_micro_connections.jpg">
 
 The wiring diagrams from the Redox community can be found [here](https://hackaday.io/project/160610/logs?sort=oldest)
 
-For easier wiring I recommend first soldering the diodes and then preparing partially de-insulated cables, details can be learned in the ---------------VIDEO---------------  or in [this guide](https://geekhack.org/index.php?topic=87689.0).
+For easier wiring I recommend first soldering the diodes and then preparing partially de-insulated cables, details can be learned in the [video](---------------VIDEO---------------)  or in [this guide](https://geekhack.org/index.php?topic=87689.0).
 
 ## Programming
 The keyboard software is based on the QMK framework, as is the original Redox. I've submitted a PR to QMK adding a media layout and corresponding key map. Also instructions to apply and flash the firmware are layed out there, refer to the [Redox Media section in the QMK repo](https://github.com/qmk/qmk_firmware/tree/master/keyboards/redox/) ---------------- update link ------------------
