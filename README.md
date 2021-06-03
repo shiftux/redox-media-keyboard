@@ -18,7 +18,7 @@ The wiring diagrams from the Redox community can be found [here](https://hackada
 For easier wiring I recommend first soldering the diodes and then preparing partially de-insulated cables, details can be learned in the [video](---------------VIDEO---------------)  or in [this guide](https://geekhack.org/index.php?topic=87689.0).
 
 ## Programming
-The keyboard software is based on the QMK framework, as is the original Redox. I've submitted a PR to QMK adding a media layout and corresponding key map. Also instructions to apply and flash the firmware are layed out there, refer to the [Redox Media section in the QMK repo](https://github.com/qmk/qmk_firmware/tree/master/keyboards/redox/) ---------------- update link ------------------
+The keyboard software is based on the QMK framework, as is the original Redox. I've submitted a PR to QMK adding a media layout and corresponding key map. Also instructions to apply and flash the firmware are layed out there, refer to the [Redox Media section in the QMK repo](https://github.com/qmk/qmk_firmware/pull/13084) (currently a PR, but you can check the changes or [my fork](https://github.com/qmk/qmk_firmware/pull/13084) of the QMK repo in the meantime).
 
 While generating a new layout I highly recommend using the amazing [QMK key tester](https://config.qmk.fm/#/test).
 
