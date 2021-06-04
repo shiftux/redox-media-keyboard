@@ -7,6 +7,8 @@ I've made a custom adaptation of the [Redox](https://hackaday.io/project/160610-
 ## Detailed report and video
 I've written a [detailed article](https://shiftux.org/making_projects/keyboard.html) and created a [video](---------------VIDEO---------------) video explaining the pros and cons of such a keyboard as well as a build and programming guide.
 
+I recommend reading at least the part about testing of switches and deciding what keyboard you want to go for in the above [article](https://shiftux.org/making_projects/keyboard.html), it will save you from a lot of work later on...
+
 ## Wiring diagram
 Keyboards are typically wired in a matrix, where every switch is connected to 1 row and 1 column. If the microcontroller detects a connection between a row and a column, it identifies which key is pressed. The [video](---------------VIDEO---------------) explains the wiring in more detail with useful hints of how to prepare the wires.
 
