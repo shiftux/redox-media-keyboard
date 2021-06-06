@@ -2,7 +2,7 @@
 
 I've made a custom adaptation of the [Redox](https://hackaday.io/project/160610-redox-keyboard) keyboard, accommodating media buttons as well as a volume knob and a scroll wheel.
 
-<img title="The Redox Media Keyboard" alt="The Redox Media Keyboard" src="./images/the_keyboard.jpg">
+<img title="The Redox Media Keyboard" alt="The Redox Media Keyboard" src="./images/redox_keyboard_custom_arrows.jpg">
 
 ## Detailed report and video
 I've written a [detailed article](https://shiftux.org/making_projects/keyboard.html) and created a [video](---------------VIDEO---------------) video explaining the pros and cons of such a keyboard as well as a build and programming guide.
@@ -41,6 +41,5 @@ While generating a new layout I highly recommend using the amazing [QMK key test
 - hook up wire (ideally multiple colors)
 - key caps. You can use any old MX type key caps from an old keyboard or order a set of custom ones. I got mine from [here](https://www.maxkeyboard.com/iso-layout-custom-color-cherry-mx-keycap-set-top-print-blank.html), another alternative would be [this](https://candykeys.com/).
 
-Note: I created the bottom part of the keyboard so that it has a custom micro-USB slot which perfectly fits the shape cable holding it in place and exposing one end as port socket for the computer-to-keyboard USB cable, that's where the [shape cable](https://www.fust.ch/de/p/pc-tablet-handy/pc-komponenten/kabel-adapter/delock/usb-otg-kabel-microb-shapecable-0-15-m-8289927.html) comes in.
 ## CAD files
-The original Redox CAD files (SCAD) are open source and available [here](https://github.com/Lenbok/scad-keyboard-cases). I've modified those adding some extra space at the top to accommodate the media buttons and two knobs as well as a mechanical housing for a micro-USB shape cable as the pro micro has a somewhat fragile micro-USB port.
+The original Redox CAD files (SCAD) are open source and available [here](https://github.com/Lenbok/scad-keyboard-cases). I've modified those adding some extra space at the top to accommodate the media buttons and two knobs. Also, I changed the bottom part of the keyboard so that it has a custom micro-USB slot which perfectly fits the shape cable holding it in place and exposing one end as port socket for the computer-to-keyboard USB cable, that's where the [shape cable](https://www.fust.ch/de/p/pc-tablet-handy/pc-komponenten/kabel-adapter/delock/usb-otg-kabel-microb-shapecable-0-15-m-8289927.html) comes in.
